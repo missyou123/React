@@ -199,7 +199,7 @@ Diff算法
    2. 在需要的组件中，import导入样式表，并接收模块化的 CSS 样式对象：
           import cssObj from '../css/CmtList.css' 
    3. 在需要的HTML标签上，使用className指定模块化的样式：
-          <h1 className={cssObj.title}>xxxx</h1>
+       
 3. 使用localIdentName自定义生成的类名格式，可选的参数有：
    - [path]  表示样式表 相对于项目根目录 所在路径
    - [name]  表示 样式表文件名称
